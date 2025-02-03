@@ -1,4 +1,4 @@
-# Pentest Simulator
+# Infection Craft       
 
 ## Description
 This Python script is designed to demonstrate how penetration testing tools can affect files in a system, emulating virus-like behavior. It scans specific files in a directory and simulates infection by overwriting them with the script's content. The tool logs all actions and results to a file for further analysis.
